@@ -1,0 +1,36 @@
+{
+  "name": "todo-web-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack build --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "css-loader": "^6.11.0",
+    "html-webpack-plugin": "^5.6.0",
+    "postcss-loader": "^7.3.4",
+    "sass": "^1.77.8",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jquery": "^3.7.1",
+    "mongodb": "^6.8.0",
+    "nodemon": "^3.1.4"
+  }
+}
